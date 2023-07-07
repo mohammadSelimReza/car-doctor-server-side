@@ -8,10 +8,16 @@ const BannerItem = ({ item }) => {
         <img src={imgDir} className="w-full" />
       </div>
       <div className="absolute flex justify-end transform -translate-y-1/2 right-5 bottom-5 ">
-        <a href={`#${preSlide}`} className="btn btn-circle mx-3">
+        <a
+          href={`#${preSlide}`}
+          className="btn btn-circle mx-3  btn-outline btn-warning"
+        >
           ❮
         </a>
-        <a href={`#${nextSlide}`} className="btn btn-circle mx-2">
+        <a
+          href={`#${nextSlide}`}
+          className="btn btn-circle mx-2  btn-outline btn-warning"
+        >
           ❯
         </a>
       </div>
