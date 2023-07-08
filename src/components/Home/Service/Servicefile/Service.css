@@ -1,0 +1,14 @@
+.card {
+  width: 364px;
+  height: 348px;
+  border-radius: 10px;
+  border: 1px solid var(--dark-06, #e8e8e8);
+  background: #fff;
+  padding: 25px;
+}
+.card img {
+  width: 315px;
+  height: 210px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}

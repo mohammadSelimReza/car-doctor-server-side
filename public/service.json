@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Electrical System",
+    "price": "20.00",
+    "imgDir": " https://i.ibb.co/TTkCwcs/01.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Engine Diagnostic",
+    "price": "20.00",
+    "imgDir": "https://i.ibb.co/G55HgLR/02.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Auto Car Repair",
+    "price": "20.00",
+    "imgDir": "https://i.ibb.co/nLJTt1p/03.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Electrical System",
+    "price": "20.00",
+    "imgDir": "https://i.ibb.co/6b2d5Nj/04.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Engine Diagnostic",
+    "price": "20.00",
+    "imgDir": "https://i.ibb.co/XLbfDcT/05.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Auto Car Repair",
+    "price": "20.00",
+    "imgDir": "https://i.ibb.co/nw3fWkm/06.jpg"
+  }
+]
