@@ -1,15 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
-import ServiceItems from "../ServiceItems/ServiceItems";
+import PopularItem from "../PopularItem/PopularItem";
 
 // import css file
-import "./Service.css";
+import "./PopularItems.css";
 import { useState } from "react";
 import { useEffect } from "react";
 // function:
-const Service = () => {
+const PopularItems = () => {
   const [items, setItems] = useState([]);
   useEffect(() => {
-    fetch("service.json")
+    fetch("product.json")
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
@@ -23,7 +23,7 @@ const Service = () => {
       </p>
       <div className="grid grid-cols-3 gap-6 my-12">
         {items.map((item) => (
-          <ServiceItems key={item.id} item={item}></ServiceItems>
+          <PopularItem key={item.id} item={item}></PopularItem>
         ))}
       </div>
       <div className="text-center">
@@ -32,4 +32,4 @@ const Service = () => {
     </div>
   );
 };
-export default Service;
+export default PopularItems;

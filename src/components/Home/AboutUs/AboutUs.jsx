@@ -16,12 +16,12 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="text-part w-1/2">
-          <h4 className="text-xl font-bold text-orange-600 mb-7">About US</h4>
-          <h1 className="text-5xl font-bold">
+          <h5 className="font-bold text-orange-600 mb-7">About US</h5>
+          <h3 className="font-bold">
             We are qualified <br />
             & of experience <br />
             in this field.
-          </h1>
+          </h3>
           <p className="my-7">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected

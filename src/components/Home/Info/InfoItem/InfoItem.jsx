@@ -7,8 +7,8 @@ export default function InfoItem({ infoData }) {
         <img src={imgDir} alt="infoImg" />
       </div>
       <div className="text-area text-white">
-        <h4>{q}</h4>
-        <h3>{ans}</h3>
+        <p className="text-white font-medium">{q}</p>
+        <h4 className="font-bold">{ans}</h4>
       </div>
     </div>
   );

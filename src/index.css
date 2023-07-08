@@ -1,3 +1,43 @@
+/* imported font*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* tailwind utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* default heading size */
+h1 {
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+}
+h2 {
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+}
+h3 {
+  font-size: 35px;
+  font-family: "Inter", sans-serif;
+}
+h4 {
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+}
+h5 {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+}
+h6 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: var(--dark-03, #737373);
+}
+button {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
