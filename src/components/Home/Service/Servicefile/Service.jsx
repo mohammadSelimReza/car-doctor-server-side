@@ -26,6 +26,9 @@ const Service = () => {
           <ServiceItems key={item.id} item={item}></ServiceItems>
         ))}
       </div>
+      <div className="text-center">
+        <button className="btn btn-outline btn-warning">Warning</button>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "imgDir": "https://i.ibb.co/nwnSLVb/calendar-494596.png",
+    "q": "We are open Monday-Friday",
+    "ans": "7:00am - 9:00pm"
+  },
+  {
+    "id": "2",
+    "imgDir": "https://i.ibb.co/84Ndhrg/phone-call-3616230.png",
+    "q": "Have a question?",
+    "ans": "+2546 251 2658"
+  },
+  {
+    "id": "1",
+    "imgDir": "https://i.ibb.co/52M0qn1/map-1865269.png",
+    "q": "Need a repair? our address",
+    "ans": "Santa Village, New York"
+  }
+]
