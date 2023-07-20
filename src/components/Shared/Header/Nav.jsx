@@ -1,8 +1,20 @@
 // imported files::
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import webLogo from "../../../assets/website img/logo.png";
+import { useContext } from "react";
+import { AuthProvider } from "../../../context/AuthContext";
 // nav function::
 const Nav = () => {
+  // import context:
+  const { user, logOut } = useContext(AuthProvider);
+  const handleOut = () => {
+    logOut()
+      .then(() => {
+        <Navigate to="/login" replace={true} />;
+      })
+      .catch(console.log("sign out successfully"));
+  };
+  // menulist
   const menulist = (
     <div className="menu menu-vertical lg:menu-horizontal">
       <Link className="mx-2 px-4 py-2  bg-base-200 rounded-box" to="/">
@@ -58,7 +70,16 @@ const Nav = () => {
           <ul className="menu menu-horizontal px-1">{menulist}</ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-outline btn-accent">Appointment</button>
+          {user?.email && <span>Welcome, {user.email} </span>}
+          {user?.email ? (
+            <button onClick={handleOut} className="btn btn-sm">
+              Log Out
+            </button>
+          ) : (
+            <Link to="/login">
+              <button className="btn btn-sm">Log in</button>
+            </Link>
+          )}
         </div>
       </div>
     </nav>
